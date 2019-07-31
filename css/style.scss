@@ -1,15 +1,19 @@
 ---
 ---
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
-@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
 
 /* Colours */
 $twitter:        #6dabda;
 $linkedin:       #2b77b1;
+$xing:           #006567;
 $google-plus:    #c95644;
+$facebook:       #365899;
 $github:         #f6c2a4;
 $stack-overflow: #c98b3b;
+$instagram:      #cd486b;
+$reddit:         #cee3f8;
 $rss:            #eea33a;
 
 $darker:         #21211E;
@@ -184,9 +188,17 @@ ul {
 	.fa-linkedin:hover {
 		color: $linkedin;
 	}
+	
+	.fa-xing:hover {
+		color: $xing;
+	}
 
 	.fa-google-plus:hover {
 		color: $google-plus;
+	}
+	
+	.fa-facebook:hover {
+		color: $facebook;
 	}
 
 	.fa-github-alt:hover {
@@ -196,7 +208,15 @@ ul {
 	.fa-stack-overflow:hover {
 		color: $stack-overflow;
 	}
-
+	
+	.fa-instagram:hover {
+		color: $instagram;
+	}
+	
+	.fa-reddit-alien:hover {
+		color: $reddit;
+	}
+	
 	.fa-rss:hover {
 		color: $rss;
 	}
@@ -226,6 +246,10 @@ ul {
 			margin-left: -10%;
 			width: 120%;
 		}
+	}
+
+	.categories {
+		font-size: 22px;
 	}
 
 	.content-panel:nth-of-type(1) {
@@ -338,6 +362,7 @@ ul {
 
 		a, a:active {
 			color: $white;
+			white-space: nowrap;
 		}
 
 		a:hover {
@@ -570,6 +595,10 @@ ul {
 				padding-bottom: 20px;
 			}
 
+			.series {
+				margin-bottom: 50px;
+			}
+
 			img {
 				max-width: 100%;
 				padding: 10px;
@@ -578,15 +607,19 @@ ul {
     		margin-right: auto
 			}
 
-			li {
+			ul {
 				list-style-type: disc;
+			}
+
+            		ol {
+				list-style-type: decimal;
 			}
 
 			blockquote {
 				position: relative;
 				width: 100%;
 		    margin-left: -15px;
-				padding-right: 45px;
+				padding-right: 10px;
 				background-color: $darker;
 				color: white;
 				box-sizing: content-box;
@@ -627,10 +660,10 @@ ul {
 			    margin: 5px auto 5px auto;
 			}
 
-			.highlight {
+			figure.highlight, div.highlighter-rouge {
 				width: 100%;
 				margin-left: -15px;
-				padding-right: 45px;
+				padding-right: 10px;
 				box-sizing: content-box;
 				white-space: nowrap;
 
@@ -837,4 +870,55 @@ ul {
 	}
 	
  
+}
+
+.btn-categories {
+	background-color: $light-blue;
+	border-color: $light-blue;
+	color: $white;
+	&:hover {
+		background-color: $dark-blue;
+		border-color: $dark-blue;
+		color: $white;
+	}
+	&:active {
+		background-color: $dark-blue;
+		border-color: $dark-blue;
+		color: $white;
+	}
+	&:focus {
+		background-color: $dark-blue;
+		border-color: $dark-blue;
+		color: $white;
+	}
+}
+
+.dropdown-menu {
+	background-color: $light-blue;
+	color: $white;
+	> li > a {
+		background-color: $light-blue;
+		color: $white;
+		&:hover {
+			background-color: $dark-blue;
+			color: $white;
+		}
+	}
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid $darker;;
+}
+
+th{
+    padding: 2px;
+    border:2px solid $darker;;
+}
+
+td{
+    padding: 2px;
+    border:1px solid $dark-blue;;
 }
