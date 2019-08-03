@@ -15,8 +15,7 @@ post_limit: 5
 github_username:  loicnassif
 linkedin_link: https://www.linkedin.com/in/loic-nassif-1ba007164/
 # Footer
-footer_left: "Template made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Template made with <i class=\"fa fa-heart\"></i> by <a href=\"https://github.com/jacobtomlinson/carte-noire\">Jacob Tomlinson</a>"
 
 # Build settings
 markdown: kramdown
