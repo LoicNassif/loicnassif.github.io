@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://www.roikku.me/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://www.roikku.me/pt-br/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://www.roikku.me/authors/</loc>
+  </url><url>
+    <loc>http://www.roikku.me/categories/</loc>
+  </url><url>
+    <loc>http://www.roikku.me/</loc>
+  </url><url>
+    <loc>http://www.roikku.me/series/</loc>
+  </url><url>
+    <loc>http://www.roikku.me/tags/</loc>
+  </url>
+</urlset>
