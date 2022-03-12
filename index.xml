@@ -24,7 +24,7 @@ AbstractWe present a novel meso-scale model for computing anisotropic and as
       
       <guid>http://www.roikku.me/about/</guid>
       <description>I&amp;rsquo;m a PhD candidate in computer science at McGill University studying under the supervision of Paul G. Kry and Sheldon Andrews. Before that, I completed my bachelor&amp;rsquo;s degree in applied mathematics from the University of Toronto.
-My research interests lie in the application of physics theory within computer animation. Currently I focus on modeling friction for rigid body systems. Friction is a complex phenomenon, and we try to develop models that allow for real-time interactions while still preserving physical accuracy.</description>
+My research interests lie in the application of physics theory within computer animation. Currently I focus on modeling friction for rigid body and soft body systems. Friction is a complex phenomenon, and we try to develop models that allow for real-time interactions while still preserving physical accuracy.</description>
     </item>
     
     <item>
