@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>earth-science on loicnassif</title>
-    <link>http://www.roikku.me/categories/earth-science/</link>
-    <description>Recent content in earth-science on loicnassif</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://www.roikku.me/categories/earth-science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Direct Imaging of Irregular Satellite Disks in Scattered Light</title>
-      <link>http://www.roikku.me/publications/nassif2020-et-al/</link>
-      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.roikku.me/publications/nassif2020-et-al/</guid>
-      <description>L Nassif-Lachapelle, D Tamayo
-AbstractDirect imaging surveys have found that long-period super-Jupiters are rare. By contrast, recent modeling of the widespread gaps in protoplanetary disks revealed by ALMA suggests an abundant population of smaller Neptune to Jupiter-mass planets at large separations. The thermal emission from such lower-mass planets is negligible at optical and near-infrared wavelengths, leaving only their weak signals in reflected light. Planets do not scatter enough light at these large orbital distances, but there is a natural way to enhance their reflecting area.</description>
-    </item>
-    
-  </channel>
-</rss>
